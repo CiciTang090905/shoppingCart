@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query"; // ðŸ‘
 import { routeTree } from "./routeTree.gen";
 import "./index.css";
 
-const router = createRouter({ routeTree, basepath: "/shopping-cart" });
+const router = createRouter({ routeTree, basepath: "/shoppingCart" });
 
 declare module "@tanstack/react-router" {
   interface Register {

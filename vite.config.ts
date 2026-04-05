@@ -6,7 +6,7 @@ import { tanstackRouter } from "@tanstack/router-plugin/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/shopping-cart/",
+  base: "/shoppingCart/",
   plugins: [
     // Please make sure that '@tanstack/router-plugin' is passed before '@vitejs/plugin-react'
     tanstackRouter({
