@@ -1,6 +1,6 @@
 import { createRootRoute, Link, Outlet } from "@tanstack/react-router";
 import { CartProvider } from "@/providers/cart-provider";
-import { CartLink } from "@/components/ui/cart-link";
+import { CartLink } from "@/components/cart-link";
 
   export const Route = createRootRoute({
     component: RootLayout,
